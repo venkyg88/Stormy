@@ -12,7 +12,7 @@
 <!--It is an acceptable layout, but it scales up differently on different screen sizes!
     How to resolve?
     Hint: Use Linear Layout and play with graity settings!-->
-<ListView
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@android:id/list"
@@ -24,7 +24,7 @@
         android:layout_alignParentRight="false"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:divider="null"
+        android:divider="@null"
         android:dividerHeight="0dp"/>
 
     <TextView

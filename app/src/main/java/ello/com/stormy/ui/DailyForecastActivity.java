@@ -21,11 +21,11 @@ import ello.com.stormy.weather.Day;
 
 public class DailyForecastActivity extends ListActivity {
 
-    Day mdays[];
+    private Day mdays[];
     private String mCity;
     private String mState;
 
-    TextView mLocationLabel;
+    private TextView mLocationLabel;
 
     //@Bind(R.id.dailyLocationLabel) TextView mLocationLabel;
 
@@ -33,14 +33,6 @@ public class DailyForecastActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daily_forecast);
-
-
-        //String[] daysOfTheWeek = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
-        Integer[] daysOfTheWeek = { 12, 12, 13, 14, 15, 16, 17, 19, 20, 10, 19, 19, 34, 23, 25, 23, 34, 56};
-
-        /*ArrayAdapter<Integer> arrayAdapter = new ArrayAdapter<Integer>(this,
-                android.R.layout.simple_list_item_1,daysOfTheWeek);
-        setListAdapter(arrayAdapter);*/
 
         mLocationLabel = (TextView) findViewById(R.id.dailyLocationLabel);
 
