@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stormy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_title">Oops! Sorry!</string>
+    <string name="error_message">There was an error, plz try again!</string>
+    <string name="error_ok_button_text">Ok</string>
+    <string name="error_network">Network not Available</string>
+    <string name="timeText">At 5:00 PM it will be</string>
+    <string name="title_activity_daily_forecast">DailyForecastActivity</string>
+    <string name="daily_forecast_no_data">There is no data to display</string>
+</resources>
